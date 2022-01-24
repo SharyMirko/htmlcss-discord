@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Lexend Deca, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*  nav - header */
+
+header {
+    height: 70vh;
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding-top: 2.5rem;
+}
+
+.nav {
+    position: absolute;
+    left: 15%;
+    transform: translate(5%, 15%);
+    text-align: center;
+    right: 15%;
+}
+
+.nav ul, li, button {
+    display: inline-block;
+    list-style: none;
+    vertical-align: 5px;
+}
+
+.nav button {
+    line-height: 30px;
+    text-align: center;
+    border-radius: 40%;
+    border: none;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
+    position: relative;
+    right: -12%;
+    transform: translate(-12%, -10%);
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+    display: block;
+}
+
+.nav img {
+    position: relative;
+    left: -20%;
+    transform: translate(-20%);
+}
+
+/* disclamer - header */
+
+.disclamer {
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    transform: translate(0, 25%);
+    color: white;
+    text-align: center;
+}
+
+.disclamer p {
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 23%;
+    transform: translate(5%);
+}
+
+.disclamer ul {
+    margin-top: 2em;
+}
+
+.disclamer li {
+    margin-right: 1rem;
+}
+
+.disclamer li button {
+    background-color: white;
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 20%;
+    border: none;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+    color: black;
+}
+
+.disclamer li button a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.disclamer li button.black {
+    background-color: black;
+}
+
+.disclamer li button.black a {
+    color: white;
+}
