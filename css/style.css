@@ -5,6 +5,10 @@
     color: black;
 }
 
+body {
+    background-color: #ffffff;
+}
+
 a {
     text-decoration: none;
 }
@@ -116,7 +120,7 @@ header {
 
 section {
     width: 100%;
-    height: 70vh;
+    height: auto;
     min-width: 800px;
     background-color: white;
     position: relative;
@@ -124,6 +128,7 @@ section {
 
 section.grey {
     background-color: #f6f6f6;
+    
 }
 
 h2 {
@@ -150,7 +155,6 @@ position: relative;
     width: calc((100% - 1em) / 2);
     display: inline-block;
     position: relative;
-    top: 2em;
     vertical-align: middle;
 }
 
@@ -165,7 +169,6 @@ position: relative;
     width: calc((100% - 1em) / 2);
     display: inline-block;
     position: relative;
-    top: 2em;
     vertical-align: middle;
 }
 
@@ -173,6 +176,7 @@ position: relative;
     width: 100%;
     height: 50px;
     position: relative;
+
 }
 
 .wave-rev svg {
@@ -196,24 +200,30 @@ position: relative;
 
 .disclamer2 {
     width: 100%;
-    position: absolute;
+    height: auto;
+    position: relative;
     text-align: center;
-    top: 2rem;
     background-color: #f6f6f6;
 }
 
-.disclamer2 p {
+.grey p {
     width: 70%;
     text-align: center;
     position: relative;
     left: 15%;
+    top: 1rem;
 }
 
-.disclamer2 img {
+.grey h3 {
+    margin-top: 1.1rem;
+    display: block;
+}
+
+.grey img {
     height: 80%;
 }
 
-.disclamer2 li button {
+.grey button {
     background-color: #8ea1e1;
     line-height: 3rem;
     text-align: center;
@@ -222,11 +232,17 @@ position: relative;
     padding-left: 2.5em;
     padding-right: 2.5em;
     color: white;
-    margin-top: 2rem;
 }
 
-.disclamer2 li button a {
+.grey button a {
     text-decoration: none;
     color: white;
     display: block;
+}
+
+footer {
+    height: auto;
+    background-color: #23272a;
+    position: relative;
+    border-top: #f6f6f6 2rem solid;
 }
