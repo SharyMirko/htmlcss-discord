@@ -23,24 +23,26 @@ header {
     transform: translate(5%, 15%);
     text-align: center;
     right: 15%;
+    min-width: 1000px;
+    display: table-cell;
 }
 
 .nav ul, li, button {
     display: inline-block;
     list-style: none;
-    vertical-align: 5px;
+    vertical-align: middle;
 }
 
 .nav button {
     line-height: 30px;
     text-align: center;
-    border-radius: 40%;
+    border-radius: 50px;
     border: none;
     padding-left: 0.3em;
     padding-right: 0.3em;
     position: relative;
     right: -12%;
-    transform: translate(-12%, -10%);
+    transform: translate(-12%);
 }
 
 .nav li a {
@@ -54,6 +56,7 @@ header {
     position: relative;
     left: -20%;
     transform: translate(-20%);
+    vertical-align: middle;
 }
 
 /* disclamer - header */
@@ -87,7 +90,7 @@ header {
     background-color: white;
     line-height: 3rem;
     text-align: center;
-    border-radius: 20%;
+    border-radius: 50px;
     border: none;
     padding-left: 2.5em;
     padding-right: 2.5em;
