@@ -84,10 +84,15 @@ header {
 
 .disclamer p {
     width: 50%;
+    color: #ffffff;
     text-align: center;
     position: relative;
     left: 23%;
     transform: translate(5%);
+}
+
+.disclamer h1 {
+    color: #ffffff;
 }
 
 .disclamer ul {
